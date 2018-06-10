@@ -13,7 +13,8 @@ Here is the BNF description of the language:
 
 
 
-<assignment> ::= ( <varref> <= <color> )               
+
+    <assignment> ::= ( <varref> <= <color> )               
 
     <unary-op> ::= invert | darker
 
