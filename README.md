@@ -11,11 +11,15 @@ Here is the BNF description of the language:
                | ( color <var> = <color> in <color> )
                | ( do <assignment>* <color> )          
 
+
+
 <assignment> ::= ( <varref> <= <color> )               
 
-  <unary-op> ::= invert | darker
- <2color-op> ::= + | - | mix
- <1color-op> ::= * | shift
+    <unary-op> ::= invert | darker
+
+    <2color-op> ::= + | - | mix
+
+    <1color-op> ::= * | shift
 
 A <number> can be any real number, positive or negative, including integers. As noted above, a <byte> is an 8-bit integer in the range [0..255]. The semantics of the values and operators is defined below.
 
